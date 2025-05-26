@@ -9,7 +9,6 @@ const [inputs,setInputs] =useState({
     username: "",
     password:"",
   })
-
   //handle error if user exist
   const [err,setError] = useState(null)
 
