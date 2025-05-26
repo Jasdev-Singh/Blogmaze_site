@@ -282,6 +282,9 @@ footer{
 }
 
 @media (max-width:768px) {
+   #root{
+    overflow: scroll;
+  }
   .containerforlogin
   {
     flex-direction: column; align-items: center; padding: 1rem; margin:0px;
@@ -354,7 +357,11 @@ footer{
   width: 200px; height: 200px; bottom: 30%; left: 80%;
 }
 
-
+@media (max-width:768px) {
+  .contentforregisterpage{
+    overflow: scroll;
+  }
+}
 /* ---------------------------------------- write page  ------------------------------------------- */
 .addwrite{
   margin-top: 20px;  margin-bottom: 0px; display: flex;  gap: 20px; margin-left:10px; margin-right:10px;
