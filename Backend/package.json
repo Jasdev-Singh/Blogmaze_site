@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js"
+      "build": "echo 'no build step'"
   },
   "keywords": [],
   "author": "",
